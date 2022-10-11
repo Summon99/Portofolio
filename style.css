@@ -1,0 +1,243 @@
+* {
+    margin: 0%, auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+html {
+    margin: 0%;
+}
+body {
+    margin: 0%;
+}
+.nav {
+    display: block;
+    position: relative;
+    z-index: 99;
+    position: fixed;
+    margin: 0%;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 5%;
+    border-radius: 0px 0px 15px 15px;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn {
+    height: 100%;
+    background-color: inherit;
+    color: white;
+    padding: 0.5em;
+    font-size: inherit;
+    border: 0px solid;
+    width: 10%;
+}
+.r {
+    position: absolute;
+    color:rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    font-size: 80%;
+    left: 90%;
+    border: 5px solid black;
+    background-color: black;
+    border-radius: 0px 0px 15px 15px;
+}
+.navmob {
+    margin-top: 5%;
+    display: none;
+    display: flex;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    height: 70%;
+    border-radius: 0px 0px 15px 15px;
+    justify-content: center;
+    text-align: center;
+    font-size: 6vw;
+}
+.btnM {
+    height: 40%;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    font-size: inherit;
+    border: 0px solid;
+    width: 100%;
+}
+.mob {
+    display: none;
+    font-family: 10vw;
+}
+.btnM:hover {
+    background-color: rgb(142, 122, 122);
+}
+#Contact {
+    background-image: linear-gradient(to right, red , yellow);
+}
+.btn:hover {
+    background-color: rgb(142, 122, 122);
+}
+.intro {
+    padding: 10%;
+    z-index: 0;
+    justify-content: center;
+    text-align: center;
+    color: rgb(201, 160, 106);
+    background-color: antiquewhite;
+    margin: 0%;
+    height: 50%;
+}
+.branding {
+    position: absolute;
+    left: 1%;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    font-size: inherit;
+}
+/* what is span, difference between sections headers and navs in html, and what are query selectors*/
+.About {
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+    height: 70%;
+    background-color: rgb(103, 210, 174);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px, 1fr));
+    row-gap: 50px;
+    column-gap: 50px;
+    color: rgb(255, 242, 224);
+}
+.AbtTitle {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: green;
+}
+.abtItem {
+    width: 100%;
+    margin: 0%;
+}
+.Skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(310px, 1fr));
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    z-index: 0;
+    color: rgb(201, 160, 106);
+    background-color: antiquewhite;
+    margin: 0%;
+    height: 100%;
+    font-size: 20px
+}
+.ul {
+    list-style: none;
+}
+.bar {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 10px;
+}
+.img {
+    margin-right: 15%;
+}
+.imgr {
+    margin-left: 15%;
+}
+#Html {
+    background-color: rgb(142, 36, 36);
+    height: 10px;
+    width: 70%;
+    border-radius: 15px;
+    animation-name: Smooth;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Smooth {
+    25% {width: 73%;}
+    75% {width: 65%;}
+}
+#Css {
+    background-color: rgb(142, 36, 36);
+    height: 10px;
+    width: 70%;
+    border-radius: 15px;
+    animation-name: Css;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Css {
+    25% {width: 92%;}
+    75% {width: 81%;}
+}
+#JavaScript {
+    background-color: rgb(142, 36, 36);
+    height: 10px;
+    width: 70%;
+    border-radius: 15px;
+    animation-name: Js;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Js {
+    25% {width: 46%;}
+    75% {width: 30%;}
+}
+.Contact {
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+    height: 70%;
+    background-color: rgb(103, 210, 174);
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px, 1fr));
+    row-gap: 50px;
+    column-gap: 50px;
+    color: rgb(255, 242, 224);
+}
+.buttons {
+    border: none;
+    background-color: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+.one {
+    display: inline-block;
+    font-size: 36px;
+    color: green;
+}
+.one:hover {
+    color: lightblue;
+    transform: scale(0.6, 0.7);
+    transition: color 0.3s;
+    transition: transform 0.3s;
+}
+.two {
+    margin-left: 2%;
+    font-size: 42px;
+    color: rgb(254, 198, 121);
+}
+.ooo {
+    list-style: none;
+}
+@media screen and (max-width: 700px) {
+    .laptop {
+        display: none;
+    }
+    .navmob {
+        display: grid;
+    }
+    .r {
+        opacity: 1;
+    }
+    .mob {
+        display: grid;
+    }
+}
